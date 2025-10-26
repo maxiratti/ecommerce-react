@@ -16,7 +16,7 @@ export const ItemListContainer = ({ titulo }) => {
         setProducts(data);
       })
       .catch((err) => {
-        console.log(err);
+        console.log(err); 
       });
   }, []);
 

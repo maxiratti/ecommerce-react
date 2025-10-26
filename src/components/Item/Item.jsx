@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import "./Item.css";
+import "./Item.css"; 
 
 export const Item = ({ name, price, description, imageUrl, children }) => {
   //recordamos el uso del children, no es obligatorio que este
