@@ -8,9 +8,6 @@ export const Nav = () => {
   //en la barra de busqueda
     const {getTotalItems} = useCartContext();
 
-
-
-
   return (
     <nav>
       <ul>

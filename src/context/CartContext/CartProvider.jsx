@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {CartContext} from "./CartContext";
 
-export const CartProvider = (children) => {
+export const CartProvider = ({children}) => {
     const [cart, setCart] = useState([]);
 
     const exists = (id) => {
