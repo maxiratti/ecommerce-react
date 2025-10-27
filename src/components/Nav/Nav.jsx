@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCartContext} from "../../context/CartContext/UseCartContext";
+import { FaShoppingCart } from "react-icons/fa";
 import "./Nav.css";
 
 export const Nav = () => {
@@ -21,7 +22,11 @@ export const Nav = () => {
           <Link to={"/category/dulce"}>Dulce</Link>
         </li>
         <li>
-          <Link>Carrito</Link>
+          {/* <Link>Carrito</Link> */}
+          <Link to="/cart">
+              <FaShoppingCart size={20} color="white" />
+          </Link>
+
           {getTotalItems() > 0 && (
             <span className="in-cart">{getTotalItems()}</span>
           )}
