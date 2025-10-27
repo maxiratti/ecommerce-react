@@ -14,7 +14,7 @@ function App() {
         <CartProvider>
             <Nav />
             <Routes>
-              <Route path="/" element={<ItemListContainer titulo={"Bienvenidos"} />} />
+              <Route path="/" element={<ItemListContainer titulo={"Pizzería Victoria"} />} />
               <Route path="/detail/:id" element={<ItemDetailContainer />} />
             </Routes>
         </CartProvider>

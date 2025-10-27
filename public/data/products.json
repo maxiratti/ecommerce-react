@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "name": "Budín de limón",
-    "price": 4500,
-    "category": "dulce",
-    "description": "Budín húmedo de limón con glaseado casero.",
-    "imageUrl": "/images/budin-limon.jpg"
+    "name": "Pizza Napolitana",
+    "price": 8500,
+    "category": "salado",
+    "description": "Pizza napolitana con tomate, muzzarella, ajo picado, hojas de albahaca, masa al molde.",
+    "imageUrl": "/images/pizza-napolitana.jpg"
   },
   {
     "id": "2",
-    "name": "Pan de masa madre",
-    "price": 3200,
+    "name": "Pizza de Peperoni",
+    "price": 9500,
     "category": "salado",
-    "description": "Hogaza de 750 g con fermentación lenta de 24 horas.",
-    "imageUrl": "/images/pan-masa-madre.jpg"
+    "description": "Pizza de peperoni con peperoni, muzzarella, masa al molde.",
+    "imageUrl": "/images/pizza-peperoni.jpg"
   },
   {
     "id": "3",
-    "name": "Croissant de manteca",
-    "category": "dulce",
-    "price": 1200,
-    "description": "Hojaldre 100% manteca, crujiente por fuera y tierno por dentro.",
-    "imageUrl": "/images/croissant.jpg"
+    "name": "Pizza de Ternera",
+    "category": "salado",
+    "price": 9500,
+    "description": "Pizza de ternera, muzzarella, huevo picado, aceitunas, masa al molde.",
+    "imageUrl": "/images/pizza-ternera.jpg"
   }
 ]
